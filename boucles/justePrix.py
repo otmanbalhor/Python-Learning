@@ -5,13 +5,9 @@
 #   -> si il le trouve le juste prix "c'est gagné !"
 #   -> sinon on affiche "c'est moins" ou "c'est plus"
 
-from random import shuffle
+from random import randint
 
-array = [100,240,760,965,234,312,651,912,289,121,682,713]
-
-shuffle(array)
-
-price = array[0]
+price = randint(1,1000)
 
 print('LE JEU DU JUSTE PRIX !')
 cpt = 0
