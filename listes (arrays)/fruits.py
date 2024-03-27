@@ -31,7 +31,7 @@ print(fruits)
 
 # On a plus de Fraise donc on doit le virer du tableau
 
-fruits.pop(1)
+fruits.remove("Framboise")
 
 print(fruits)
 

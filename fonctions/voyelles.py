@@ -9,8 +9,6 @@
 
 word = input("Entrez un mot de votre choix: ")
 
-
-
 def get_vowels_numbers(word):
     cpt = 0
     vowels = ['a','e','i','o','u','y']
