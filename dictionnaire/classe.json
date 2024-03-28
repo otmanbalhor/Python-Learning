@@ -1,0 +1,14 @@
+{
+    "Paul": {
+        "note": 12,
+        "appreciation": "Peu mieux faire"
+    },
+    "Camille": {
+        "note": 8,
+        "appreciation": "Catastrophique"
+    },
+    "Otman": {
+        "note": 17,
+        "appreciation": "Excellent"
+    }
+}
