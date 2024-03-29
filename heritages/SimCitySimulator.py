@@ -71,13 +71,13 @@ class Bank(Batiment):
         print("Toc, toc, toc, c'est les impots ! Taxe spécifique pour les banques :", taxe, "$")
     
 
-immeuble1 = Immeuble(5,500000,'Jean',75)
-immeuble2 = Immeuble(7,600000,'Jon',80)
-immeuble3 = Immeuble(9,850000,'Jack',120)
-immeuble4 = Immeuble(4,300000,'Jade',55)
-supermarket1 = Supermarket(2,500000,'Ledl',60)
-supermarket2 = Supermarket(1,650000,'Carrefeur',70)
-bank = Bank(1,2500000000,'Belfios',35)
+immeuble1 = Immeuble(5,500000,'Marvin',75)
+immeuble2 = Immeuble(7,600000,'Thomas',80)
+immeuble3 = Immeuble(9,850000,'Thomas',120)
+immeuble4 = Immeuble(4,300000,'Marvin',55)
+supermarket1 = Supermarket(2,500000,'Marvin',60)
+supermarket2 = Supermarket(1,650000,'Thomas',70)
+bank = Bank(1,2500000000,'les parents de Nico',35)
 
 print("l'immeuble 1 appartient à",immeuble1.get_owner(),". Son prix est de",int(immeuble1.get_price()),"$ .",immeuble1.get_humans(),"personnes vivent dedans.")
 
